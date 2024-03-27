@@ -28,7 +28,10 @@
     "react": "^18",
     "react-dom": "^18",
     "react-icons": "^4.12.0",
+<<<<<<< HEAD
     "react-responsive": "^10.0.0",
+=======
+>>>>>>> e5cfa2d1d77e881040ff5091cb7abf3932a3c184
     "react-responsive-carousel": "^3.2.23",
     "react-slick": "^0.29.0",
     "react-toastify": "^9.1.3",
