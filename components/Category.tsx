@@ -79,9 +79,12 @@ export default function Category() {
 
   return ( 
     
-    <div className='max-w-[1200px] mx-auto mt-10 relative overflow-hidden'>
-      <div className=" flex justify-between items-center">
-        <h2 className="text-xl md:text-2xl font-semibold mb-5 hover:underline p-4">
+    <div className='max-w-[1200px] mx-auto mt-10 relative'>
+      
+      <div className=" flex justify-between item-center mb-4">
+        <h2 className="text-xl md:text-2xl font-semibold 
+          hover:underline"
+        >
             Explore Popular Categories
         </h2>
 

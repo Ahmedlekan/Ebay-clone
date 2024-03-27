@@ -83,7 +83,7 @@ export default function Deals() {
         </Link>
         <div className="bg-white">
           <Link href={`/product/${product.id}`}>
-              <h3 className="text-lg text-center font-semibold">
+              <h3 className="text-lg text-start font-semibold">
                 {product.description}
               </h3>
           </Link>
@@ -131,16 +131,16 @@ const settings = {
     
     <div className='max-w-[1200px] mx-auto mt-20 relative p-4'>
         
-        <div className="flex justify-between items-center">
-          <h2 className="text-xl md:text-2xl font-semibold mb-5 
+        <div className="flex justify-between item-center mb-4">
+          <h2 className="text-xl md:text-2xl font-semibold 
             hover:underline"
             >
             Today&apos;s Deals – All With Free Shipping
           </h2>
-            <Link href="/allproducts" className="underline" 
-            >
-              See all
-            </Link>
+          <Link href="/allproducts" className="underline" 
+          >
+            See all
+          </Link>
         </div>
         
         <div className="max-w-[1200px]">

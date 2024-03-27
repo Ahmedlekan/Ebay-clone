@@ -44,7 +44,7 @@ export default function TopMenu() {
         <section>
             <div id="TopMenu" className="border-b">
                 <div className="flex items-center justify-between 
-                w-full mx-auto max-w-[1200px]">
+                    w-full mx-auto max-w-[1200px]">
                     <ul 
                         id="TopMenuLeft"
                         className="flex items-center text-[11px] 
@@ -95,10 +95,10 @@ export default function TopMenu() {
                           </div>
                         </li>
 
-                        <li className="px-3 hover:underline cursor-pointer">
+                        <li className="hidden md:block px-3 hover:underline cursor-pointer">
                             Daily Deals
                         </li>
-                        <li className="px-3 hover:underline cursor-pointer">
+                        <li className="hidden md:block px-3 hover:underline cursor-pointer">
                             Help & Contact
                         </li>
                         
@@ -111,7 +111,7 @@ export default function TopMenu() {
                     >
                         <li 
                             onClick={() => router.push('/address')} 
-                            className="flex items-center gap-2 px-3 hover:underline 
+                            className="hidden md:flex items-center gap-2 px-3 hover:underline 
                             cursor-pointer"
                         >
 
@@ -120,7 +120,7 @@ export default function TopMenu() {
                         
                         <li 
                             onClick={() => router.push('/address')} 
-                            className="flex items-center gap-2 px-3 hover:underline 
+                            className="hidden md:flex items-center gap-2 px-3 hover:underline 
                             cursor-pointer"
                         >
                             Watchlist

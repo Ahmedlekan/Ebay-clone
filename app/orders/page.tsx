@@ -2,11 +2,10 @@
 
 import Link from "next/link";
 import { CiDeliveryTruck } from 'react-icons/ci'
-import MainLayout from "../layouts/MainLayout";
 import { useState, useEffect } from "react";
 import { toast } from "react-toastify"
 import moment from "moment";
-import { OrdersProps, ProductsProps } from "../type";
+import { OrdersProps} from "../type";
 import Image from "next/image";
 import createIsLoading from "@/hooks/useIsLoading";
 import { useUser } from "../context/user";
@@ -37,7 +36,7 @@ export default function OrderPage() {
 
     return (
         <>
-            <MainLayout>
+            <div>
                 <div id="OrdersPage" className="mt-4 max-w-[1200px] mx-auto 
                 px-2 min-h-[50vh]">
                     <div className="bg-white w-full p-6 min-h-[150px]">
@@ -103,7 +102,7 @@ export default function OrderPage() {
                         ))}
                     </div>
                 </div>
-            </MainLayout>
+            </div>
         </>
     )
   }

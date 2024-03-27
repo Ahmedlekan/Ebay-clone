@@ -36,7 +36,7 @@ const Productpage = ({params}:ParamsProps) => {
   return (
     <section>
         <div className="max-w-[1200px] mx-auto">
-          <div className="flex px-4 py-10">
+          <div className="flex flex-col md:flex-row px-4 py-10">
 
             {product?.url 
               ? <Image className="rounded-lg"

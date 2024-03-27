@@ -18,7 +18,7 @@ const Product = ( {product} : ProductCardProps) => {
       >
         { product?.url ? (
             <Image alt='product image' width={250} height={250}
-                className="rounded cursor-pointer object-contain" 
+              className='w-[400px] h-[200px] rounded-lg object-contain ' 
                 src={product.url} 
             />
         )  : null }

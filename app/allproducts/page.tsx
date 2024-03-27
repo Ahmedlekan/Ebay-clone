@@ -1,6 +1,5 @@
 "use client"
 import { useState, useEffect } from "react"
-import CarouselComp from "@/components/CarouselComp"
 import Product from "@/components/Product"
 import createIsLoading from "@/hooks/useIsLoading"
 import Loading from '@/components/Loading'
@@ -40,7 +39,7 @@ export default function Home() {
             <div className="text-2xl font-bold mt-4 mb-6 px-4">
               Products
             </div>
-            <div className="grid grid-cols-5 gap-4 mt-2">
+            <div className="grid grid-cols-3 md:grid-cols-4 xl:grid-cols-5 gap-4 mt-2">
                     {products.map(product => (
                         <Product key={product.id} product={product} />
                     ))}

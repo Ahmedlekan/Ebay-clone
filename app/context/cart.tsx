@@ -55,11 +55,6 @@ const CartProvider = ({children}: ContextProviderProps) => {
         router.refresh()
     } 
     
-<<<<<<< HEAD
-=======
-       
-
->>>>>>> e5cfa2d1d77e881040ff5091cb7abf3932a3c184
     const isItemAddedToCart = (product: any) => {
         let cart = []
         if (typeof localStorage !== "undefined") {
@@ -80,11 +75,7 @@ const CartProvider = ({children}: ContextProviderProps) => {
         if (typeof localStorage !== "undefined") {
           cart = JSON.parse(localStorage.getItem('cart')!) || [];
         }
-<<<<<<< HEAD
                 
-=======
-        
->>>>>>> e5cfa2d1d77e881040ff5091cb7abf3932a3c184
         return cart.length
       }
   

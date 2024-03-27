@@ -2,7 +2,6 @@
 
 import { useEffect, useRef, useState } from "react";
 import CheckoutItem from "@/components/CheckoutItem";
-import MainLayout from "../layouts/MainLayout"
 import Link from "next/link"
 import Image from "next/image";
 import { toast } from "react-toastify";
@@ -146,7 +145,7 @@ export default function Checkout() {
 
   return (
     <>
-        <MainLayout>
+        <div>
             <div id="CheckoutPage" className="mt-4 max-w-[1100px] mx-auto">
 
                 <div className="text-2xl font-bold mt-4 mb-4">Checkout</div>
@@ -265,7 +264,7 @@ export default function Checkout() {
                     </div>
                 </div>
             </div>
-        </MainLayout>
+        </div>
     </>
   )
 }
